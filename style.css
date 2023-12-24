@@ -234,14 +234,14 @@ span {
     }
 }
 
-.vendor-list {
+.occasion-list {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
-.vendor .vendor-row {
+.occasion .occasion-row {
     max-width: 1300px;
     background: rgb(201, 220, 230);
     height: 35rem;
@@ -252,36 +252,36 @@ span {
     box-shadow: 0 .5rem .5rem rgb(127, 158, 252);
 }
 
-.vendor-row:hover {
+.occasion-row:hover {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     transform: rotate(5deg);
 }
 
-.vendor .vendor-row img {
+.occasion .occasion-row img {
     height: 20rem;
     width: 100%;
     object-fit: cover;
 }
 
-.vendor-row h2 {
+.occasion-row h2 {
     font-size: 2rem;
     font-weight: 600;
 }
 
-.vendor-row p {
+.occasion-row p {
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--clr4);
 }
 
-.venue .venue-list {
+.Event .Event-list {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.venue .venue-list .venue-box {
+.Event .Event-list .Event-box {
     flex: 1 1 50rem;
     margin: 1rem;
     position: relative;
@@ -290,13 +290,13 @@ span {
     height: 30rem;
 }
 
-.venue .venue-list .venue-box img {
+.Event .Event-list .Event-box img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.venue .venue-list .venue-box .venue-info {
+.Event .Event-list .Event-box .Event-info {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -313,22 +313,22 @@ span {
     transition: 1s ease;
 }
 
-.venue .venue-list .venue-box:hover .venue-info {
+.Event .Event-list .Event-box:hover .Event-info {
     transform: scale(1);
     opacity: 1;
 }
 
-.venue .venue-list .venue-box .venue-info h2 {
+.Event .Event-list .Event-box .Event-info h2 {
     letter-spacing: .1rem;
     font-size: 3rem;
 }
 
-.venue .venue-list .venue-box .venue-info p {
+.Event .Event-list .Event-box .Event-info p {
     letter-spacing: .1rem;
     font-size: 2rem;
 }
 
-.venue .venue-list .venue-box .venue-info .btn {
+.Event .Event-list .Event-box .Event-info .btn {
     width: 12rem;
     height: 4rem;
     margin: 1rem;
@@ -481,8 +481,8 @@ footer {
         margin-top: 2rem;
     }
     .service,
-    .vendor-list,
-    .venue-list,
+    .occasion-list,
+    .Event-list,
     .invitation-row,
     .container {
         display: inline-block;
